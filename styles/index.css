@@ -23,6 +23,7 @@ body{
     min-height: 100vh;
     flex-grow: 1;
     background-color: rgb(250, 254, 252);
+    text-align: justify;
     font-family: 'Roboto Condensed';
     font-size: 17px;
     font-weight: 400;
@@ -43,7 +44,7 @@ h2{
 /*          HEADER        */
 .header{
     width: 100vw;
-    height: 5rem;
+    height: 4rem;
     margin-bottom: 0.5rem;
     flex-grow: 1;
 }
@@ -52,7 +53,7 @@ h2{
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    height: 5rem;
+    height: 4rem;
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -171,6 +172,9 @@ ol.social-media{
     height: 70px;
 }
 
+.footer-links a{
+    color: #A3D55D;
+}
 .footer li{
     list-style: none;
 }
@@ -183,6 +187,55 @@ ol.social-media{
 .telefono a{
     color: #A3D55D;
 }
+
+/* DETALLES DE LAS PÁGINAS*/
+.politica-cookies, .politica-privacidad, .aviso-legal{
+    margin: 0.5rem 230px;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.politica-cookies h1, .aviso-legal h1, .politica-privacidad h1{
+    margin:1rem;
+}
+
+.politica-privacidad h2, .aviso-legal h2, .politica-cookies h2{
+    text-align: left;
+    font-size: 23px;
+    margin-top: 1rem;
+}
+.politica-privacidad div, .aviso-legal div, .politica-cookies div{
+    margin: 0.8rem;
+}
+
+.aviso-legal a{
+    color: #A3D55D;
+}
+
+/*ESTA ES LA TABLA DE LA PÁGINA DE COOKIES*/
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+}
+
+.cookies-table td{
+    border: solid 1px black;
+}
+.browsers li{
+    list-style: disc;
+}
+.browsers a{
+    text-decoration: none;
+    color: #A3D55D;
+}
+.mail{
+    color: #A3D55D;
+}
+
+
+
+
 
 
 /*       DISEÑO RESPONSIVE       */
