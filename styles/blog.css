@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*   margin: 1rem;
+       padding: 1rem;*/
+       padding-bottom: 0;
+       min-width: 100vw;
+       flex-grow: 1;
+       background-color: rgb(250, 254, 252);
+       font-family: 'Roboto Condensed';
+       font-size: 17px;
+       font-weight: 400;
+       color: #003d51;
+   
+}
+
+.header{
+    margin-bottom: 0.5rem;
+    min-width: 100vw;
+    height: 4rem;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+
+.logo-header{
+    width: 220px;
+    height: 70px;
+}
+
+
+.header-nav ol{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    gap: 2rem;
+
+}
+.header-nav li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+.header-nav a{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.header-nav li :hover{
+    text-decoration: underline wavy #A3D55D;
+}
+
+.logo-header{
+    width: 220px;
+    height: 70px;
+}
+
+main{
+    margin: 1rem;
+    padding: 0.5rem;
+}
+.articles{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    margin: 0.5rem;
+    margin-top: 4rem;
+}
+
+article{
+    border: solid 1px rgb(201, 201, 201);
+    border-radius: 15%;
+    box-shadow: 3px 3px rgb(226, 226, 232);
+    width: 250px;
+    height: 250px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.social-media{
+    display: flex;
+    position: relative;
+}
+ol.social-media{
+    list-style: none;
+    display:flex;
+    gap: 1.5rem;
+    margin-top: 5.5rem;
+
+}
+.social-media svg{
+    fill: #A3D55D;
+}
+.social-media :hover{
+    opacity: 85%;
+}
+
+
+.logo-footer{
+    width: 220px;
+    height: 70px;
+}
+
+.footer li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer li :hover :nth-child(:first-child){
+    text-decoration: underline wavy #A3D55D;
+}
+.telefono a{
+    color: #A3D55D;
+}
