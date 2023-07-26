@@ -140,33 +140,6 @@ h2{
     text-transform: uppercase;
 }
 
-/* FORMULARIO */
-
-.formulario{
-    margin-top: 5rem;
-}
-
-table{
-    display: flex;
-    width: 100vw;
-}
-
-input{
-    border-bottom: 1px solid rgb(14, 13, 13);
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    width: 25vw;
-    height: 30px;
-    font-size: 17px;
-    font-weight: 400;
-
-}
-.form-section{
-    text-align: justify;
-    font-size: 17px;
-    padding: .5rem;
-}
 
 
 /* BOTÓN DE ENVIAR */
@@ -256,7 +229,7 @@ hr{
 	text-decoration: underline;
 }
 
-.fondo-aviso-cookies {
+.background-aviso-cookies {
 	display: none;
 	background: rgba(0,0,0,.20);
 	position: fixed;
@@ -267,7 +240,7 @@ hr{
 	left: 0;
 }
 
-.fondo-aviso-cookies.activo {
+.background-aviso-cookies.activo {
 	display: block;
 }
 
@@ -320,22 +293,19 @@ ol.social-media{
 
 /* DETALLES DE LAS PÁGINAS*/
 .politica-cookies, .politica-privacidad, .aviso-legal{
-    margin: 0.5rem 230px;
-    padding: 4rem;
+    margin: 0.5rem 80px;
     display: flex;
     flex-direction: column;
 }
 .politica-cookies h1, .aviso-legal h1, .politica-privacidad h1{
     margin:1rem;
+    padding: 1.2rem;
 }
 
 .politica-privacidad h2, .aviso-legal h2, .politica-cookies h2{
     text-align: left;
     font-size: 23px;
     margin-top: 1rem;
-}
-.politica-privacidad div, .aviso-legal div, .politica-cookies div{
-    margin: 0.8rem;
 }
 
 .aviso-legal a{
