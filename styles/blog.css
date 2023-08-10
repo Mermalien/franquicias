@@ -15,7 +15,6 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 body{
-    margin-left: 2rem;
     padding: 0;
     padding-bottom: 0;
     min-width: 100vw;
@@ -28,6 +27,7 @@ body{
     font-weight: 400;
     line-height: 2;
     color: #003d51;
+    overflow-x: hidden;
 }
 h1{
     font-size: 37.4px;
@@ -50,13 +50,13 @@ h2{
 .header-container{
     width: 100vw;
     margin-bottom: 0.5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
     height: 4rem;
     position: fixed;
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 254, 252);
 }
 
 
@@ -68,9 +68,6 @@ h2{
 
 .header-nav li{
     display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    margin-right: 10rem;
     list-style: none;
 }
 
@@ -78,7 +75,7 @@ h2{
     text-decoration: none;
     font-family: 'Roboto Slab';
     font-weight: 600;
-    font-size: 17px;
+    font-size: 18px;
     letter-spacing: 1px;
 }
 
@@ -92,9 +89,14 @@ h2{
 /*   CONTENEDOR DE TODO EL MAIN   */
 
 .main-blog{
-    margin: 2rem;
+    width: 100%;
+    flex-grow: 1;
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
+}
+.main-blog p{
+    flex-grow: 1;
 }
 
 
@@ -211,7 +213,6 @@ ol.social-media{
     opacity: 85%;
 }
 
-
 .logo-footer{
     width: 220px;
     height: 70px;
@@ -229,7 +230,7 @@ ol.social-media{
 .footer li :hover :nth-child(:first-child){
     text-decoration: underline wavy #A3D55D;
 }
-.telefono a{
+.telefono a, .mail a{
     color: #A3D55D;
 }
 
@@ -294,18 +295,20 @@ table{
     }
 
     .header-container{
-        height: 8.5rem;
+        height: 8rem;
         width: 100%;
         display: flex;
         background-color: white;
     }
 
     .header-nav li{
+        display: inline-flex;
         margin-left: 0.8rem;
         padding: 0;
+
     }
     .header-nav a{
-        font-size: 14px;
+        font-size: 12px;
         color: #003d51;
     }
 
@@ -314,13 +317,18 @@ table{
         justify-content: center;
         width: 140px;
         height: 50px;
-        margin-top: 0.6rem;
     }
 
     main{
         display: flex;
         flex-direction: column;
         margin-left: 1rem;
+    }
+    .main-blog p{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8rem;
+        align-items: center;
     }
 
     .social-media{

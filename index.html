@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-900LEBG9ED"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-900LEBG9ED');
+</script>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
+    <meta name="description" content="En Alendia estamos creciendo y queremos contar contigo como asociado. Abre tu centro de día de la mano de Alendia y únete a un modelo de negocio en pleno crecimiento.">
+    <meta name="keywords" content="Franquicia, asociado, asociados, centro de día, personas mayores, cuidados, salud, sanidad, gerontología, emprender, emprendedor, autónomo, ideas de negocio, negocio.">
 
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -14,7 +27,7 @@
     <!-- End Google Tag Manager -->
 
     <link rel="shortcut icon" href="./images/ico.png">
-    <title>Franquicias Alendia</title>
+    <title>Red de Centros de Día Alendia</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
@@ -25,13 +38,13 @@
 
     <header class="header">
         <div class="header-container">
-            <img src="./images/logoHeader.jpg" class="logo-header">
+            
+            <a href="#formulario"><img src="./images/logoHeader.jpg" class="logo-header" alt="alendia"></a>
         
             <div class="header-nav">
             <ol>
-                <li><a href="#main">QUIÉNES SOMOS</a></li>
+                <li><a href="#quienes-somos">HOME</a></li>
                 <li><a href="/pages/blog-page.html">BLOG</a></li>
-                <li><a href="#formulario">FORMULARIO</a></li>
             </ol>
         </div>
         </div>
@@ -39,11 +52,631 @@
 
     <main class="container">
         <div id="main" class="main">
-            <div class="quienes-somos">
-                <h2>QUIÉNES SOMOS</h2>
-                <p>Los centros ALENDIA están concebidos para ofrecer un servicio de máxima calidad a las personas usuarias, de tal forma que se <strong>sientan como en casa.</strong> 
+            <div id="formulario" class="formulario">
+                <style type='text/css'>
+                    /* COMMON STYLES */
+                    :root,
+                        html {
+                        font-size: 10px; 
+                    }
+                    * {
+                    padding: 0; 
+                     margin: 0; 
+                     outline: 0;}
+                    html,
+                    body {
+                        width: 100%;
+                        font-weight: normal;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        font-size: 15px;
+                    }
+                    ul,
+                    ol {
+                        list-style-position: inside;
+                    }
+                    textarea,
+                    input[type='text'],
+                    input[type='button'],
+                    input[type='submit'],
+                    input[type='date'] {
+                        -webkit-appearance: none;
+                    }
+                    .link{
+                        color: #1980D8;
+                        cursor: pointer;
+                    }
+                    .cP{
+                        cursor: pointer;
+                    }.flex-center-v{
+                        display: flex;
+                        align-items: center;
+                    }
+                    /* COMMON STYLES */
+                    .wf-form-component {
+                        padding: 30px 40px 60px;
+                    }
+                    .wf-form-paid {
+                        padding-bottom: 45px;
+                    }
+                    .wf-parent {
+                        padding: 30px 0;
+                        height: 100%;
+                        width: 100vw;
+                        box-sizing: border-box;
+                        overflow: auto;
+                        background-repeat: no-repeat;
+                    }
+                    .wf-wrapper * {
+                        box-sizing: border-box;
+                    }
+                    .wf-wrapper {
+                        width: 100%;
+                        max-width: 700px;
+                        margin: auto;
+                        border: none;
+                        background-color: #00758c00;
+                        color: #171515;
+                    }
+                    .iframe-container{
+                        height: 100%;
+                        width: 100%;
+                        border: none;
+                        min-height: 365px;
+                    }
+                    .wf-header {
+                        font-size: 20px;
+                        text-align: center;
+                        font-weight: bold;
+                        word-break: break-word;
+                    }
+                    .wf-row {
+                        margin-bottom: 8px;
+                    }
+                    .wf-row:last-child{
+                        margin-bottom: 0;
+                    }
+                    .wf-label {
+                        padding: 7px 0;
+                        word-break: break-word;
+                    }
+                    .wf-field {
+                        text-align: left;
+                        word-break: break-word;
+                        border: 0;
+                        position: relative;
+                    }
+                    .wf-field-inner {
+                        position: relative;
+                        display: flex;
+                        flex: 1;
+                    }
+                    .wf-field-input:focus {
+                        border: 1px solid #30c384;
+                    }
+                    .wf-input-focus.wf-field::after {
+                        opacity: 1;
+                    }
+                    .wf-field-error-active{
+                        margin-bottom: -10px;
+                    }
+                    .wf-input-focus.wf-field::after,
+                    .wf-field-error-active.wf-field .wf-field-error {
+                        display: block;
+                    }
+                    .wf-field-error-active.wf-field .wf-field-input {
+                        border: 1px solid #FD6B6D;
+                        box-shadow: 0 0 1px 1px #F4A2A2;
+                    }
+                    .wf-field-mandatory .wf-field-inner::before {
+                        content: '';
+                        position: absolute;
+                        left: 0px;
+                        background-color: #ff6a6a;
+                        width: 3px;
+                        height: 100%;
+                        border-top-left-radius: 4px;
+                        border-bottom-left-radius: 4px;
+                        z-index: 2;
+                        top: 0;
+                        bottom: 0;
+                    }
+                    .wf-field-input,
+                    .wf-field-dropdown {
+                        width: 100%;
+                        border: 1px solid #BDC8D3;
+                        border-radius: 4px;
+                        padding: 10px 15px;
+                        min-height: 38px;
+                        font-size: 15px;
+                        font-family: inherit;
+                    }
+                    select:not([data-wform-field='select-multiple']) {
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        background: transparent;
+                    }
+                    input,
+                    select {
+                        background-color: #fff;
+                    }
+                    .wf-field-item {
+                        min-height: 38px;
+                    }
+                    .wf-time-field-wrapper {
+                        display: flex;
+                        flex: 1;
+                    }
+                    .wf-time-field-wrapper select {
+                        margin-left: 10px;
+                    }
+                    .wf-form-component .wf-field-error,
+                        .wf-form-component .wf-field-help-text {
+                        text-align: left;
+                    }
+                    .wf-field-error {
+                        color: #FF5050;
+                        font-size: 12px;
+                        margin-top: 4px;
+                        display: none;
+                        animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+                        transform: translate3d(0, 0, 0);
+                        backface-visibility: hidden;
+                        perspective: 1000px;
+                    }
+                    .wf-field-help-text {
+                        color: #515159;
+                        font-size: 12px;
+                        margin-top: 5px;
+                        }
+                    .wf-field-help-text-link{
+                        text-decoration: none;
+                    }
+                    .wf-field-checkbox {
+                        cursor: pointer;
+                        border-radius: 3px;
+                        min-width: 14px;
+                        min-height: 20px;
+                        box-sizing: initial;
+                        accent-color: #31C486;
+                        margin-right: 10px;
+                        margin-bottom: auto;
+                    }
+                    .wf-field-dropdown-date {
+                        padding: 8px 12px;
+                        border-radius: 4px;
+                        font-size: 15px;
+                        cursor: pointer;
+                    }
+                    .wf-field-dropdown-date {
+                        border: 1px solid #BDC8D3;
+                        }
+                    .wf-field-dropdown-date:hover {
+                        border: 1px solid #65C199;
+                    }
+                    .wform-field-item-upload-input {
+                        min-height: 5rem;
+                        background-color: #FBFCFD;
+                        border: 1px dashed #bdc8d3;
+                        line-height: 2.1;
+                        cursor: pointer;
+                    }
+                    .wform-field-item-upload-input:focus {
+                        border: 1px dashed #bdc8d3;
+                    }
+                    .wform-file-upload-input-label {
+                        background-color: #fff;
+                        background-image: linear-gradient(to top, #F5F8FA, #ffffff);
+                        color: #212129;
+                        border-color: #d3dbe3;
+                        border: 1px solid #d3dbe3;border-radius: 4px;
+                        padding: 0.7rem 2rem;
+                        font-size: 1.4rem;
+                        right: 1rem;
+                        transform: translateY(-50%);
+                        top: 50%;
+                        position: absolute;
+                        }
+                    input[type='file']::file-selector-button, input[type='file']::-webkit-file-upload-button{
+                     opacity: 0; 
+                     width: 0;
+                     height: 28px;
+                    }.wf-row[data-ux-field-appearance='captcha'] .wf-field{
+                        display: flex;
+                        align-items: center;
+                    }
+                    .wform-field-item-captcha-input{
+                        border-top-right-radius: 0;
+                        border-bottom-right-radius: 0;
+                    }
+                    .wf-field-captcha-img-wrap{
+                        border: 1px solid #BDC8D3;
+                        border-radius: 4px;
+                        border-left: 0;
+                        border-top-left-radius: 0;
+                        border-bottom-left-radius: 0;
+                        height: initial;
+                        overflow: hidden;
+                        min-width: 120px;
+                    }
+                    .wf-field-captcha-img{
+                        height: 38px;
+                        width: 100%;
+                    }
+                    .reload-img{
+                        font-size: 23px;
+                        color: #4B5569;
+                        margin-right: 5px;
+                    }
+                    .reload-captcha{
+                        margin-left: 10px;
+                        user-select: none
+                    }
+                    .wf-btn {
+                        padding: 10px 20px;
+                        border-radius: 4px;
+                        font-size: 15px;
+                        cursor: pointer;
+                        font-weight: bold;
+                        font-family: inherit;
+                    }
+                    .wform-btn-wrap {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        flex: 1;
+                    }
+                    .wform-poweredby-container {
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        border-top-right-radius: 10px;
+                        border-bottom-left-radius: 10px;
+                        font-size: 13px;
+                        padding: 6px 8px;
+                        font-family: sans-serif;
+                        display: flex;
+                        align-items: center;
+                    }
+                    /* ==================== *** Form Alignment *** ==================== */
+                    .wf-form-component:not([data-ux-form-alignment='top']) .wf-row {
+                        display: flex;
+                    }
+                    .wf-form-component:not([data-ux-form-alignment='top']) .wf-label {
+                        word-break: break-word;
+                        width: 30%;
+                        padding: 1.2rem 2rem 0;
+                    }
+                    .wf-form-component[data-ux-form-alignment='left'] .wf-label {
+                        text-align: left;
+                        padding-left: 0;
+                    }
+                    .wf-form-component[data-ux-form-alignment='right'] .wf-label {
+                        text-align: right;
+                    }
+                    .wf-form-component[data-ux-form-alignment='center'] .wf-label {
+                        text-align: center;
+                    }
+                    .wf-form-component:not([data-ux-form-alignment='top']) .wf-field {
+                        width: 70%;
+                    }
+                    .wf-form-component[data-ux-form-alignment='top'] .wform-btn-wrap {
+                        justify-content: flex-start;
+                    }
+                    .wf-form-component[data-ux-form-alignment='top'] .wf-label[data-ux-empty-label='true']{
+                        padding: 0;
+                    }
+                    .wf-form-component[data-ux-form-alignment='top'] .reload-captcha{
+                        text-align: right;
+                    }
+                    .wf-row[data-ux-field-appearance='captcha'] .wf-field-inner{
+                        height: 38px;
+                    }
+                    .wf-row[data-ux-field-appearance='captcha'] .wf-field.wf-field-error-active{
+                        flex-wrap: wrap;
+                    }
+                    .wf-row[data-ux-field-appearance='captcha'] .wf-field-error{
+                        flex-basis: 100%;
+                        width:100%;
+                    }
+                    /* ==================== *** Form Alignment ends *** ==================== */
+                    
+                    /* ==================== *** css animations *** ==================== */
+                    @keyframes shake {
+                        10%,90% {transform: translate3d(-1px, 0, 0);}
+                        20%,80% {transform: translate3d(2px, 0, 0);}
+                        30%,50%,70% {transform: translate3d(-4px, 0, 0);}
+                        40%,60% {transform: translate3d(4px, 0, 0);}
+                    }
+                    /* ==================== *** css animations ends *** ==================== */
+                    
+                    /* ==================== *** Mediaquery *** ==================== */
+                    @media screen and (max-width: 1024px) {
+                        .wf-wrapper {
+                        max-width: 700px;
+                        width: calc(100% - 40px);
+                        border: 0;
+                    }
+                        .wf-field input[type=text],
+                        .wf-field select,
+                        .wf-field textarea {
+                            width: 100% !important;
+                        }
+                        .wf-label:empty {
+                            display: none;
+                        }
+                    .wf-field-checkbox {
+                        min-width: 18px;
+                        min-height: 18px;
+                    }
+                    }
+                    @media screen and (max-width: 768px) {
+                        .wf-wrapper {
+                        max-width: 700px;
+                        width: calc(100% - 40px);
+                        border: 0;
+                    }
+                    .wf-field input[type=text],
+                        .wf-field select,
+                        .wf-field textarea {
+                        width: 100% !important;
+                        }
+                    .wf-label:empty {
+                        display: none;
+                        }
+                    }
+                    @media screen and (max-width: 590px) {
+                    .wf-parent {
+                        padding: 20px 0;
+                    }
+                    .wf-wrapper {
+                        width: calc(100% - 40px) !Important;
+                        border: 0;
+                    }
+                    .wf-form-component {
+                        padding: 20px;
+                        padding-bottom:60px;
+                    }
+                    .wf-field input[type=text],
+                    .wf-field select,
+                    .wf-field textarea {
+                        width: 100% !important;
+                    }
+                    .wf-label:empty {
+                        display: none;
+                    }
+                    .wf-row[data-ux-field-appearance='date-time'] .wf-field-inner{
+                        flex-direction: column;
+                    }
+                    .wf-row[data-ux-field-appearance='date-time'] .wf-time-field-wrapper{
+                        margin-top: 10px;
+                    }
+                    .wf-row[data-ux-field-appearance='date-time'] .wf-field-item:first-child{
+                        margin-left: 0;
+                    }
+                    .wf-row[data-ux-field-appearance='date-time'] .wf-field-item{
+                        flex: 1;
+                    }
+                    .wf-row[data-ux-field-appearance='captcha'] .wf-field{
+                        flex-direction: column;
+                    }
+                    .wf-row[data-ux-field-appearance='captcha'] .reload-captcha{
+                        margin-left: auto;
+                    }
+                    .wf-row[data-ux-field-appearance='captcha'] .wf-field-inner{
+                        width: 100%;
+                    }
+                    }
+                    /* ==================== *** Mediaquery ends *** ==================== */
+                    </style>
+                    <iframe id='hidden619565000000365645Frame' name='hidden619565000000365645Frame' style='display: none;' class='iframe-container'></iframe>
+                    <div class='wf-parent' style="background-image: url(/images/bg-form.png);">
+                        <div class='wf-wrapper' id='BiginWebToRecordFormDiv619565000000365645'>
+                        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                        <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+                        <form id='BiginWebToRecordForm619565000000365645' name='BiginWebToRecordForm619565000000365645' class='wf-form-component' data-ux-form-alignment='top' style='font-family: Arial;position: relative;font-size:15px;' method='POST' enctype='multipart/form-data' target='hidden619565000000365645Frame' onSubmit='javascript:document.charset="UTF-8"; return validateForm619565000000365645()' accept-charset='UTF-8'>
+                    <!-- Do not remove this code. -->
+                         <input type='text' style='display:none;' name='xnQsjsdp' value='43c814f375139ebc4a3e1bf337eb5a1e21348851897d5267d2b3f8d9dcc021f7'/>
+                         <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+                         <input type='text' style='display:none;' name='xmIwtLD' value='06cc7dc9410a3b3cfc93a829810caef99a842dab8bc3dd0d821fa5f8f9778df7'/>
+                         <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM='/>
+                         <input type='hidden' name='rmsg' id='rmsg' value='true'/>
+                         <input type='text' style='display:none;' name='returnURL' value='null' />
+                         <div class='wf-header'>Contacto</div>
+                         <div id='elementDiv619565000000365645' class='wf-form-wrapper'>
+                              <div class='wf-row'>  
+                                   <div class='wf-label'>Nombre</div>
+                                   <div class='wf-field wf-field-mandatory'>
+                                        <div class='wf-field-inner'>
+                                        <input name='Last Name' maxlength='80' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
+                                        </div>
+                                        <div class='wf-field-help-text'>Escriba su nombre completo
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class='wf-row'>  
+                                   <div class='wf-label'>Ciudad</div>
+                                   <div class='wf-field'>
+                                        <div class='wf-field-inner'>
+                                        <input name='Mailing City' maxlength='100' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
+                                        </div>
+                                        <div class='wf-field-help-text'>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class='wf-row'>  
+                                   <div class='wf-label'>Móvil</div>
+                                   <div class='wf-field'>
+                                        <div class='wf-field-inner'>
+                                        <input fvalidate='true' ftype='mobile' name='Mobile' maxlength='30' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class='wf-row'>  
+                                   <div class='wf-label'>Correo electrónico</div>
+                                   <div class='wf-field'>
+                                        <div class='wf-field-inner'>
+                                        <input fvalidate='true' ftype='email' name='Email' maxlength='100' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class='wf-row'>  
+                                   <div class='wf-label'>Profesión</div>
+                                   <div class='wf-field'>
+                                        <div class='wf-field-inner'>
+                                        <textarea name='Description' maxlength='32000' type='text' class='wf-field-item wf-field-input' style='resize: none;' oninput='removeError(this)'></textarea>
+                                        </div>
+                                        <div class='wf-field-help-text'>Indique su ocupaci&oacute;n actual
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class='wf-row wf-btn-row'>
+                                   <div class='wf-label' data-ux-empty-label='true'></div>
+                                   <div class='wform-btn-wrap'>
+                                   <input id='formsubmit' type='submit' class='wf-btn' style='background-color: #A3D55D; color: #fff; border: 1px solid #A3D55D;width: auto;' value='Enviar'/>
+                              </div></div>
+                        </div>
+                        </form>
+                        </div>
+                    </div>
+                    <script>
+                           var mndFileds=new Array('Last\x20Name');
+                           var fldLangVal=new Array('Nombre');
+                          var wfInnerWidth = window.innerWidth;
+                          if(wfInnerWidth <= 768){
+                               document.forms['BiginWebToRecordForm619565000000365645'].setAttribute('data-ux-form-alignment', 'top');
+                          }
+                            var name='';
+                            var email='';
+                         function removeError(fieldObj) {
+                              var parentElement = fieldObj.parentElement.parentElement,
+                                   childEle = parentElement.getElementsByClassName('wf-field-error')[0];
+                              if(childEle) {
+                                   parentElement.classList.remove('wf-field-error-active');
+                                   parentElement.removeChild(parentElement.getElementsByClassName('wf-field-error')[0]);
+                              }
+                         }
+                         function setError(fieldObj, label) {
+                              var parentElement = fieldObj.parentElement.parentElement,
+                                  childEle = parentElement.getElementsByClassName('wf-field-error')[0];
+                              if(!childEle) {
+                                   var spanEle = document.createElement('SPAN');
+                                   spanEle.setAttribute('class', 'wf-field-error');
+                                   spanEle.innerHTML = label;
+                                   parentElement.append(spanEle);
+                                   parentElement.classList.add('wf-field-error-active');
+                              }
+                         }
+                         function validateFields619565000000365645() {
+                              var isReturn = true;
+                              var form = document.forms['BiginWebToRecordForm619565000000365645'];
+                              var validateFld = form.querySelectorAll('[fvalidate=true]');
+                              var i;
+                              for (i = 0; i < validateFld.length; i++)
+                              {
+                                   var validateFldVal = validateFld[i].value;
+                                   if(validateFldVal !== '') {
+                                        var fLabel = validateFld[i].parentElement.parentElement.parentElement.getElementsByClassName('wf-label')[0].innerHTML;
+                                        switch(validateFld[i].getAttribute('ftype')) {
+                                        case 'email':
+                                             if(validateFldVal.match(/^([A-Za-z0-9._%-'+/]+@[A-Za-z0-9.-]+.[a-zA-Z]{2,22})$/) === null) {
+                                                  setError(validateFld[i], 'Enter valid ' + fLabel);
+                                                  isReturn = false;
+                                             }
+                                             break;
+                                        case 'number':
+                                             if(validateFldVal.match(/^[0-9]+$/) === null) {
+                                                  setError(validateFld[i], 'Enter valid ' + fLabel);
+                                                  isReturn = false;
+                                              }
+                                             break;
+                                        case 'double':
+                                             if(validateFldVal.match(/^[0-9]*(\.[0-9]{0,2})?$/) === null) {
+                                                  setError(validateFld[i], 'Enter valid ' + fLabel);
+                                                  isReturn = false;
+                                              }
+                                             break;
+                                        case 'mobile':
+                                              if(validateFldVal.match(/^[0-9a-zA-Z+.()\-;\s]+$/) === null) {
+                                                  setError(validateFld[i], 'Enter valid ' + fLabel);
+                                                  isReturn = false;
+                                              }
+                                             break;
+                                         }
+                                   }
+                              }
+                              return isReturn;
+                         }
+                    
+                            function checkMandatory619565000000365645() {
+                            var isReturn = true;
+                            for(i=0;i<mndFileds.length;i++) {
+                              var fieldObj=document.forms['BiginWebToRecordForm619565000000365645'][mndFileds[i]];
+                              if(fieldObj) {
+                                if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+                                    if(fieldObj.type =='file')
+                                    {
+                                         setError(fieldObj, 'Seleccione un archivo para cargar.'); 
+                                        isReturn = false;
+                                    }
+                                    setError(fieldObj, fldLangVal[i] + ' cannot be empty');
+                                    isReturn= false;
+                                }  else if(fieldObj.nodeName=='SELECT') {
+                                    if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+                                    setError(fieldObj, fldLangVal[i] +' no puede ser nulo.');
+                                    isReturn = false;
+                                   }
+                                } else if(fieldObj.type =='checkbox'){
+                                    if(fieldObj.checked == false){
+                                    setError(fieldObj, 'Please accept  '+fldLangVal[i]);
+                                    isReturn= false;
+                                    } 
+                                 } 
+                                 try {
+                                     if(fieldObj.name == 'Last Name') {
+                                    name = fieldObj.value;
+                                       }
+                                } catch (e) {}
+                                }
+                            }
+                            if(!validateFields619565000000365645()){isReturn = false;}
+                            if(!isReturn){
+                                var errEle = document.getElementsByClassName('wf-field-error');
+                                if(errEle && errEle.length >0){
+                                    var inputEle = errEle[0].parentElement.getElementsByTagName('input');
+                                    if(inputEle && inputEle.length == 0) {
+                                        inputEle = errEle[0].parentElement.getElementsByTagName('select');
+                                    }
+                                    if(inputEle && inputEle.length > 0) {
+                                        inputEle[0].focus();
+                                    }
+                                }
+                            }
+                            return isReturn; 
+                            }
+                    
+                           
+                            document.getElementById('hidden619565000000365645Frame').addEventListener('load', function () {
+                                try {
+                                    var doc = arguments[0].currentTarget.contentWindow.document;
+                                    if(doc.body.childElementCount !== 0) {
+                                        arguments[0].currentTarget.style.display = 'block';
+                                        document.getElementById('BiginWebToRecordForm1000000105005').style.display = 'none';
+                                    }
+                                } catch (error) {
+                                    arguments[0].currentTarget.style.display = 'block';
+                                    document.getElementById('BiginWebToRecordForm619565000000365645').style.display = 'none'
+                                }
+                            });
+                    </script>
+                          <script id='wf_script' src='https://bigin.zoho.eu/crm/WebformScriptServlet?rid=06cc7dc9410a3b3cfc93a829810caef99a842dab8bc3dd0d821fa5f8f9778df7gid43c814f375139ebc4a3e1bf337eb5a1e21348851897d5267d2b3f8d9dcc021f7'></script>
+            </div>
+            <div class="quienes-somos" id="quienes-somos">
+                <h1>QUIÉNES SOMOS</h1>
+                <p class="p1"><strong>Alendia es una red de centros de día en proceso de expansión, que usa una metodología propia basada en el MÉTODO ALENDIA y que está captando asociados para crear una red de nuevos centros. </strong>
                 </p>
-                <p>Para ello es necesario disponer de <strong>eficaces protocolos</strong> de funcionamiento, así como de un personal preparado para ello y en formación continua.</p>
+                <img src="./images/imagen2.jpg" alt="alendia" class="quienes-somos-img">
+                <p class="p2">Los centros ALENDIA están concebidos para ofrecer un servicio de máxima calidad a las personas usuarias, de tal forma que se <strong>sientan como en casa.</strong> Para ello es necesario disponer de <strong>eficaces protocolos</strong> de funcionamiento, así como de un personal preparado para ello y en formación continua.</p>
                 <section class="images">
                     <div class="image-container">
                     <img src="./images/icono-profesionales-alendia-9a25f292.png">
@@ -86,645 +719,47 @@
                     </div>
 
                 </section>
+                <section class="video">
+                    <iframe class="yt-video" width="560" height="315" src="https://www.youtube.com/embed/lPvs-GUUhIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </section>
+                
                 <br>
-                <p class="link-to-form"><a href="#formulario"><strong>¿Te interesa desarrollar un negocio rentable y apasionante con nosotros?</strong></a></p>
+                <div class="last-div-quienes-somos">
+                <p class="link-to-form">
+                    <a href="#formulario"><strong>¿Te interesa desarrollar un negocio rentable y apasionante con nosotros?</strong></a></p>
                 <br>
                 <p>Benefíciate ahora de un proyecto empresarial rentable y <strong>consulta cómo convertirte en asociado ALENDIA.</strong></p>
                 <p><strong>Solicita gratuitamente y sin compromiso alguno nuestro dossier de CENTROS ASOCIADOS ALENDIA.</strong></p>
+                </div>
+                
             </div>
 
             <div class="metodo-alendia">
                 <h2>MÉTODO ALENDIA</h2>
+                <img src="./images/image-metodo.jpeg" class="metodo-image" alt="centro-de-dia">
                 <p>El programa de gestión de nuestros centros <strong>-Método ALENDIA-</strong>, ofrece un conjunto de servicios propios orientados a la calidad y el bienestar de los usuarios:</p>
                 <br>
+                <div class="bottom-div">
+                    <p class="sello-container">
+                        <img src="/images/lg.jpg" class="sello">
+                    </p>
+                        <ul class="items-metodo">
+                            <li>Plan ALENDIA</li>
+                            <li>Talleres</li>
+                            <li>Dietas adaptadas</li>
+                            <li>Actividades</li>
+                            <li>Fisioterapia individual</li>
+                            <li>Gerontogimnasia</li>
+                            <li>Animación sociocultural</li>
+                            <li>Psicología</li>
+                            <li>Promoción de la salud</li>
+                        </ul>
+                </div>
 
-                    <ul class="items-metodo">
-                        <li>Plan ALENDIA</li>
-                        <li>Talleres</li>
-                        <li>Dietas adaptadas</li>
-                        <li>Actividades</li>
-                        <li>Fisioterapia individual</li>
-                        <li>Gerontogimnasia</li>
-                        <li>Animación sociocultural</li>
-                        <li>Psicología</li>
-                        <li>Promoción de la salud</li>
-                    </ul>
-                    <img src="./images/image-metodo.jpeg" class="metodo-image">
             </div>
         </div>
         
-        <div id="formulario" class="formulario">
-
-        <style type='text/css'>
-            /* COMMON STYLES */
-
-            textarea,
-            input[type='text'],
-            input[type='button'],
-            input[type='submit'],
-            input[type='date'] {
-                -webkit-appearance: none;
-            }
-
-            /* COMMON STYLES */
-            .wf-form-component {
-                padding: 30px 40px 60px;
-            }
-            .wf-form-paid {
-                padding-bottom: 45px;
-            }
-            .wf-parent {
-                padding: 30px 0;
-                height: 100%;
-                box-sizing: border-box;
-                overflow: auto;}
-            .wf-wrapper * {
-                box-sizing: border-box;
-            }
-            .wf-wrapper {
-                width: 100%;
-                max-width: 700px;
-                border-radius: 10px;
-                margin: auto;
-                border: none;
-                background-color: #fff;
-                color: #222;
-                box-shadow: 0px 0px 2px 0 #00000033;
-            }
-            .iframe-container{
-                height: 100%;
-                width: 100%;
-                border: none;
-                min-height: 365px;
-            }
-            .wf-header {
-                font-size: 22px;
-                padding-bottom: 25px;
-                font-weight: bold;
-                word-break: break-word;
-            }
-            .wf-row {
-                margin-bottom: 25px;
-            }
-            .wf-row:last-child{
-                margin-bottom: 0;
-            }
-            .wf-label {
-                padding: 7px 0;
-                word-break: break-word;
-            }
-            .wf-field {
-                text-align: left;
-                word-break: break-word;
-                border: 0;
-                position: relative;
-            }
-            .wf-field-inner {
-                position: relative;
-                display: flex;
-                flex: 1;
-            }
-            .wf-field-input:focus {
-                border: 1px solid #30c384;
-            }
-            .wf-input-focus.wf-field::after {
-                opacity: 1;
-            }
-            .wf-field-error-active{
-                margin-bottom: -10px;
-            }
-            .wf-input-focus.wf-field::after,
-            .wf-field-error-active.wf-field .wf-field-error {
-                display: block;
-            }
-            .wf-field-error-active.wf-field .wf-field-input {
-                border: 1px solid #FD6B6D;
-                box-shadow: 0 0 1px 1px #F4A2A2;
-            }
-            .wf-field-mandatory .wf-field-inner::before {
-                content: '';
-                position: absolute;
-                left: 0px;
-                background-color: #ff6a6a;
-                width: 3px;
-                height: 100%;
-                border-top-left-radius: 4px;
-                border-bottom-left-radius: 4px;
-                z-index: 2;
-                top: 0;
-                bottom: 0;
-            }
-            .wf-field-input,
-            .wf-field-dropdown {
-                width: 100%;
-                border: 1px solid #BDC8D3;
-                border-radius: 4px;
-                padding: 10px 15px;
-                min-height: 38px;
-                font-size: 15px;
-                font-family: inherit;
-            }
-            input,
-            select {
-                background-color: #fff;
-            }
-            .wf-field-item {
-                min-height: 38px;
-            }
-            .wf-time-field-wrapper {
-                display: flex;
-                flex: 1;
-            }
-            .wf-time-field-wrapper select {
-                margin-left: 10px;
-            }
-            .wf-form-component .wf-field-error,
-                .wf-form-component .wf-field-help-text {
-                text-align: left;
-            }
-            .wf-field-error {
-                color: #FF5050;
-                font-size: 12px;
-                margin-top: 4px;
-                display: none;
-                animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
-                transform: translate3d(0, 0, 0);
-                backface-visibility: hidden;
-                perspective: 1000px;
-            }
-            .wf-field-help-text {
-                color: #515159;
-                font-size: 12px;
-                margin-top: 5px;
-                }
-            .wf-field-help-text-link{
-                text-decoration: none;
-            }
-            .wf-field-checkbox {
-                cursor: pointer;
-                border-radius: 3px;
-                min-width: 14px;
-                min-height: 20px;
-                box-sizing: initial;
-                accent-color: #31C486;
-                margin-right: 10px;
-                margin-bottom: auto;
-            }
-            .wf-field-dropdown-date {
-                padding: 8px 12px;
-                border-radius: 4px;
-                font-size: 15px;
-                cursor: pointer;
-            }
-            .wf-field-dropdown-date {
-                border: 1px solid #BDC8D3;
-                }
-            .wf-field-dropdown-date:hover {
-                border: 1px solid #65C199;
-            }
-            .wform-field-item-upload-input {
-                min-height: 5rem;
-                background-color: #FBFCFD;
-                border: 1px dashed #bdc8d3;
-                line-height: 2.1;
-                cursor: pointer;
-            }
-            .wform-field-item-upload-input:focus {
-                border: 1px dashed #bdc8d3;
-            }
-            .wform-file-upload-input-label {
-                background-color: #fff;
-                background-image: linear-gradient(to top, #F5F8FA, #ffffff);
-                color: #212129;
-                border-color: #d3dbe3;
-                border: 1px solid #d3dbe3;border-radius: 4px;
-                padding: 0.7rem 2rem;
-                font-size: 1.4rem;
-                right: 1rem;
-                transform: translateY(-50%);
-                top: 50%;
-                position: absolute;
-                }
-            input[type='file']::file-selector-button, input[type='file']::-webkit-file-upload-button{
-             opacity: 0; 
-             width: 0;
-             height: 28px;
-            }.wf-row[data-ux-field-appearance='captcha'] .wf-field{
-                display: flex;
-                align-items: center;
-            }
-            .wform-field-item-captcha-input{
-                border-top-right-radius: 0;
-                border-bottom-right-radius: 0;
-            }
-            .wf-field-captcha-img-wrap{
-                border: 1px solid #BDC8D3;
-                border-radius: 4px;
-                border-left: 0;
-                border-top-left-radius: 0;
-                border-bottom-left-radius: 0;
-                height: initial;
-                overflow: hidden;
-                min-width: 120px;
-            }
-            .wf-field-captcha-img{
-                height: 38px;
-                width: 100%;
-            }
-            .reload-img{
-                font-size: 23px;
-                color: #4B5569;
-                margin-right: 5px;
-            }
-            .reload-captcha{
-                margin-left: 10px;
-                user-select: none
-            }
-            .wf-btn {
-                padding: 10px 20px;
-                border-radius: 4px;
-                font-size: 15px;
-                cursor: pointer;
-                font-weight: bold;
-                font-family: inherit;
-            }
-            .wform-btn-wrap {
-                display: flex;
-                align-items: center;
-                justify-content: flex-end;
-                flex: 1;
-            }
-            .wform-poweredby-container {
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                border-top-right-radius: 10px;
-                border-bottom-left-radius: 10px;
-                font-size: 12px;
-                padding: 5px 8px;
-                font-family: sans-serif;
-                display: flex;
-                align-items: center;
-            }
-            /* ==================== *** Form Alignment *** ==================== */
-            .wf-form-component:not([data-ux-form-alignment='top']) .wf-row {
-                display: flex;
-            }
-            .wf-form-component:not([data-ux-form-alignment='top']) .wf-label {
-                word-break: break-word;
-                width: 30%;
-                padding: 1.2rem 2rem 0;
-            }
-            .wf-form-component[data-ux-form-alignment='left'] .wf-label {
-                text-align: left;
-                padding-left: 0;
-            }
-            .wf-form-component[data-ux-form-alignment='right'] .wf-label {
-                text-align: right;
-            }
-            .wf-form-component[data-ux-form-alignment='center'] .wf-label {
-                text-align: center;
-            }
-            .wf-form-component:not([data-ux-form-alignment='top']) .wf-field {
-                width: 70%;
-            }
-            .wf-form-component[data-ux-form-alignment='top'] .wform-btn-wrap {
-                justify-content: flex-start;
-            }
-            .wf-form-component[data-ux-form-alignment='top'] .wf-label[data-ux-empty-label='true']{
-                padding: 0;
-            }
-            .wf-form-component[data-ux-form-alignment='top'] .reload-captcha{
-                text-align: right;
-            }
-            .wf-row[data-ux-field-appearance='captcha'] .wf-field-inner{
-                height: 38px;
-            }
-            .wf-row[data-ux-field-appearance='captcha'] .wf-field.wf-field-error-active{
-                flex-wrap: wrap;
-            }
-            .wf-row[data-ux-field-appearance='captcha'] .wf-field-error{
-                flex-basis: 100%;
-                width:100%;
-            }
-            /* ==================== *** Form Alignment ends *** ==================== */
-            
-            /* ==================== *** css animations *** ==================== */
-            @keyframes shake {
-                10%,90% {transform: translate3d(-1px, 0, 0);}
-                20%,80% {transform: translate3d(2px, 0, 0);}
-                30%,50%,70% {transform: translate3d(-4px, 0, 0);}
-                40%,60% {transform: translate3d(4px, 0, 0);}
-            }
-            /* ==================== *** css animations ends *** ==================== */
-            
-            /* ==================== *** Mediaquery *** ==================== */
-            @media screen and (max-width: 1024px) {
-                .wf-wrapper {
-                max-width: 700px;
-                width: calc(100% - 40px);
-                border: 0;
-            }
-                .wf-field input[type=text],
-                .wf-field select,
-                .wf-field textarea {
-                    width: 100% !important;
-                }
-                .wf-label:empty {
-                    display: none;
-                }
-            .wf-field-checkbox {
-                min-width: 18px;
-                min-height: 18px;
-            }
-            }
-            @media screen and (max-width: 768px) {
-                .wf-wrapper {
-                max-width: 700px;
-                width: calc(100% - 40px);
-                border: 0;
-            }
-            .wf-field input[type=text],
-                .wf-field select,
-                .wf-field textarea {
-                width: 100% !important;
-                }
-            .wf-label:empty {
-                display: none;
-                }
-            }
-            @media screen and (max-width: 590px) {
-            .wf-parent {
-                padding: 20px 0;
-            }
-            .wf-wrapper {
-                width: calc(100% - 40px) !Important;
-                border: 0;
-            }
-            .wf-form-component {
-                padding: 20px;
-                padding-bottom:60px;
-            }
-            .wf-field input[type=text],
-            .wf-field select,
-            .wf-field textarea {
-                width: 100% !important;
-            }
-            .wf-label:empty {
-                display: none;
-            }
-            .wf-row[data-ux-field-appearance='date-time'] .wf-field-inner{
-                flex-direction: column;
-            }
-            .wf-row[data-ux-field-appearance='date-time'] .wf-time-field-wrapper{
-                margin-top: 10px;
-            }
-            .wf-row[data-ux-field-appearance='date-time'] .wf-field-item:first-child{
-                margin-left: 0;
-            }
-            .wf-row[data-ux-field-appearance='date-time'] .wf-field-item{
-                flex: 1;
-            }
-            .wf-row[data-ux-field-appearance='captcha'] .wf-field{
-                flex-direction: column;
-            }
-            .wf-row[data-ux-field-appearance='captcha'] .reload-captcha{
-                margin-left: auto;
-            }
-            .wf-row[data-ux-field-appearance='captcha'] .wf-field-inner{
-                width: 100%;
-            }
-            }
-            /* ==================== *** Mediaquery ends *** ==================== */
-            </style>
-            <iframe id='hidden561577000000376004Frame' name='hidden561577000000376004Frame' style='display: none;' class='iframe-container'></iframe><div class='wf-parent' style='background-color: #EAEEF2'>
-                <div class='wf-wrapper' id='BiginWebToRecordFormDiv561577000000376004'>
-                <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-                <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
-                <form id='BiginWebToRecordForm561577000000376004' name='BiginWebToRecordForm561577000000376004' class='wf-form-component' data-ux-form-alignment='left' style='font-family: Verdana;position: relative;font-size:15px;' method='POST' enctype='multipart/form-data' target='hidden561577000000376004Frame' onSubmit='javascript:document.charset="UTF-8"; return validateForm561577000000376004()' accept-charset='UTF-8'>
-            <!-- Do not remove this code. -->
-                 <input type='text' style='display:none;' name='xnQsjsdp' value='cd03ffa2e6aae663fde1424dd5316c048d79f4ae78ceb068c841459e33677424'/>
-                 <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-                 <input type='text' style='display:none;' name='xmIwtLD' value='2b9de30015eba37c33d7c1929b0608bf480a25c931e1a2c9629cb64bdfe9bc89'/>
-                 <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM='/>
-                 <input type='hidden' name='rmsg' id='rmsg' value='true'/>
-                 <input type='text' style='display:none;' name='returnURL' value='null' />
-                 <div class='wf-header'>Formulario</div>
-                 <div id='elementDiv561577000000376004' class='wf-form-wrapper'>
-                      <div class='wf-row'>  
-                           <div class='wf-label'>Nombre</div>
-                           <div class='wf-field wf-field-mandatory'>
-                                <div class='wf-field-inner'>
-                                <input name='Last Name' maxlength='80' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
-                                </div>
-                                <div class='wf-field-help-text'>Escriba su nombre completo
-                                </div>
-                           </div>
-                      </div>
-                      <div class='wf-row'>  
-                           <div class='wf-label'>Teléfono</div>
-                           <div class='wf-field'>
-                                <div class='wf-field-inner'>
-                                <input fvalidate='true' ftype='mobile' name='Phone' maxlength='50' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
-                                </div>
-                                <div class='wf-field-help-text'>
-                                </div>
-                           </div>
-                      </div>
-                      <div class='wf-row'>  
-                           <div class='wf-label'>Email</div>
-                           <div class='wf-field'>
-                                <div class='wf-field-inner'>
-                                <input fvalidate='true' ftype='email' name='Email' maxlength='100' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
-                                </div>
-                                <div class='wf-field-help-text'>
-                                </div>
-                           </div>
-                      </div>
-                      <div class='wf-row'>  
-                           <div class='wf-label'>Ciudad</div>
-                           <div class='wf-field'>
-                                <div class='wf-field-inner'>
-                                <input name='Mailing City' maxlength='100' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
-                                </div>
-                                <div class='wf-field-help-text'>
-                                </div>
-                           </div>
-                      </div>
-                      <div class='wf-row'>  
-                           <div class='wf-label'>Profesión</div>
-                           <div class='wf-field'>
-                                <div class='wf-field-inner'>
-                                <textarea name='Description' maxlength='32000' type='text' class='wf-field-item wf-field-input' style='resize: none;' oninput='removeError(this)'></textarea>
-                                </div>
-                                <div class='wf-field-help-text'>
-                                </div>
-                           </div>
-                      </div>
-                      <div class='wf-row'>  
-                           <div class='wf-label'></div>
-                           <div class='wf-field'>
-                                <div class='wf-field-inner flex-center-v'>
-                                     <input class='wf-field-item wf-field-checkbox' type='checkbox' id='privacycheck561577000000376004' name='privacyTool' autocomplete='off' onclick='disablePrivacyError561577000000376004()'/>
-                                     <label for='privacycheck561577000000376004' class='cP'>Acepto la Política de privacidad y las Condiciones del servicio.</label>
-                                </div>
-                           </div>
-                      </div>
-                      <div class='wf-row wf-btn-row'>
-                           <div class='wf-label' data-ux-empty-label='true'></div>
-                           <div class='wform-btn-wrap'>
-                           <input id='formsubmit' type='submit' class='wf-btn' style='background-color:#A3D55D; color: #fff; border: 1px solid #A3D55D;width: auto;' value='Enviar'/>
-                      </div></div>
-                </div>
-                </form>
-                </div>
-            </div>
-            <script>
-                   var mndFileds=new Array('Last\x20Name');
-                   var fldLangVal=new Array('Nombre');
-                  var wfInnerWidth = window.innerWidth;
-                  if(wfInnerWidth <= 768){
-                       document.forms['BiginWebToRecordForm561577000000376004'].setAttribute('data-ux-form-alignment', 'top');
-                  }
-                    var name='';
-                    var email='';
-                 function removeError(fieldObj) {
-                      var parentElement = fieldObj.parentElement.parentElement,
-                           childEle = parentElement.getElementsByClassName('wf-field-error')[0];
-                      if(childEle) {
-                           parentElement.classList.remove('wf-field-error-active');
-                           parentElement.removeChild(parentElement.getElementsByClassName('wf-field-error')[0]);
-                      }
-                 }
-                 function setError(fieldObj, label) {
-                      var parentElement = fieldObj.parentElement.parentElement,
-                          childEle = parentElement.getElementsByClassName('wf-field-error')[0];
-                      if(!childEle) {
-                           var spanEle = document.createElement('SPAN');
-                           spanEle.setAttribute('class', 'wf-field-error');
-                           spanEle.innerHTML = label;
-                           parentElement.append(spanEle);
-                           parentElement.classList.add('wf-field-error-active');
-                      }
-                 }
-                 function validateFields561577000000376004() {
-                      var isReturn = true;
-                      var form = document.forms['BiginWebToRecordForm561577000000376004'];
-                      var validateFld = form.querySelectorAll('[fvalidate=true]');
-                      var i;
-                      for (i = 0; i < validateFld.length; i++)
-                      {
-                           var validateFldVal = validateFld[i].value;
-                           if(validateFldVal !== '') {
-                                var fLabel = validateFld[i].parentElement.parentElement.parentElement.getElementsByClassName('wf-label')[0].innerHTML;
-                                switch(validateFld[i].getAttribute('ftype')) {
-                                case 'email':
-                                     if(validateFldVal.match(/^([A-Za-z0-9._%-'+/]+@[A-Za-z0-9.-]+.[a-zA-Z]{2,22})$/) === null) {
-                                          setError(validateFld[i], 'Enter valid ' + fLabel);
-                                          isReturn = false;
-                                     }
-                                     break;
-                                case 'number':
-                                     if(validateFldVal.match(/^[0-9]+$/) === null) {
-                                          setError(validateFld[i], 'Enter valid ' + fLabel);
-                                          isReturn = false;
-                                      }
-                                     break;
-                                case 'double':
-                                     if(validateFldVal.match(/^[0-9]*(\.[0-9]{0,2})?$/) === null) {
-                                          setError(validateFld[i], 'Enter valid ' + fLabel);
-                                          isReturn = false;
-                                      }
-                                     break;
-                                case 'mobile':
-                                      if(validateFldVal.match(/^[0-9a-zA-Z+.()\-;\s]+$/) === null) {
-                                          setError(validateFld[i], 'Enter valid ' + fLabel);
-                                          isReturn = false;
-                                      }
-                                     break;
-                                 }
-                           }
-                      }
-                      return isReturn;
-                 }
-                 function privacyError561577000000376004() {
-                      var privacyTool = document.getElementById('privacycheck561577000000376004');
-                      if(privacyTool !=undefined && !privacyTool.checked )
-                      {
-                           setError(privacyTool, 'Please accept Privacy Policy');
-                           return false;
-                      }
-                      return true;
-                 }
-                 function disablePrivacyError561577000000376004() {
-                      var privacyTool = document.getElementById('privacycheck561577000000376004');
-                      removeError(privacyTool);
-                 }
-            
-                    function checkMandatory561577000000376004() {
-                    var isReturn = true;
-                    for(i=0;i<mndFileds.length;i++) {
-                      var fieldObj=document.forms['BiginWebToRecordForm561577000000376004'][mndFileds[i]];
-                      if(fieldObj) {
-                        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
-                            if(fieldObj.type =='file')
-                            {
-                                 setError(fieldObj, 'Seleccione un archivo para cargar.'); 
-                                isReturn = false;
-                            }
-                            setError(fieldObj, fldLangVal[i] + ' cannot be empty');
-                            isReturn= false;
-                        }  else if(fieldObj.nodeName=='SELECT') {
-                            if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
-                            setError(fieldObj, fldLangVal[i] +' no puede ser nulo.');
-                            isReturn = false;
-                           }
-                        } else if(fieldObj.type =='checkbox'){
-                            if(fieldObj.checked == false){
-                            setError(fieldObj, 'Please accept  '+fldLangVal[i]);
-                            isReturn= false;
-                            } 
-                         } 
-                         try {
-                             if(fieldObj.name == 'Last Name') {
-                            name = fieldObj.value;
-                               }
-                        } catch (e) {}
-                        }
-                    }
-                    if(!privacyError561577000000376004()){isReturn = false;}
-                    if(!validateFields561577000000376004()){isReturn = false;}
-                    if(!isReturn){
-                        var errEle = document.getElementsByClassName('wf-field-error');
-                        if(errEle && errEle.length >0){
-                            var inputEle = errEle[0].parentElement.getElementsByTagName('input');
-                            if(inputEle && inputEle.length == 0) {
-                                inputEle = errEle[0].parentElement.getElementsByTagName('select');
-                            }
-                            if(inputEle && inputEle.length > 0) {
-                                inputEle[0].focus();
-                            }
-                        }
-                    }
-                    return isReturn; 
-                    }
-            
-                   
-                    document.getElementById('hidden561577000000376004Frame').addEventListener('load', function () {
-                        try {
-                            var doc = arguments[0].currentTarget.contentWindow.document;
-                            if(doc.body.childElementCount !== 0) {
-                                arguments[0].currentTarget.style.display = 'block';
-                                document.getElementById('BiginWebToRecordForm1000000105005').style.display = 'none';
-                            }
-                        } catch (error) {
-                            arguments[0].currentTarget.style.display = 'block';
-                            document.getElementById('BiginWebToRecordForm561577000000376004').style.display = 'none'
-                        }
-                    });
-            </script>
-                  <script id='wf_script' src='https://bigin.zoho.eu/crm/WebformScriptServlet?rid=2b9de30015eba37c33d7c1929b0608bf480a25c931e1a2c9629cb64bdfe9bc89gidcd03ffa2e6aae663fde1424dd5316c048d79f4ae78ceb068c841459e33677424'></script>
-        </div>
+        
         
          
 
@@ -743,9 +778,9 @@
     <hr></hr>
     <footer>
         <div class="footer">
-            <div class="logo">
+          <!--  <div class="logo">
                 <img src="images/logoHeader.jpg" alt="logo-alendia" class="logo-footer">
-            </div>
+            </div>-->
             <div class="footer-links">
                 <ol>
                     <li>
@@ -763,7 +798,7 @@
                 <h3>Contacto</h3>
                 <ol class="info-data-contact">
                     <li class="telefono"><a href="tel:+34604062354">604062354</a></li>
-                    <li>asociados@alendia.es</li>
+                    <li class="mail"><a href="mailto:asociados@alendia.es">asociados@alendia.es</a></li>
                     <li>Av. Martínez Garrido 37, 36205 Vigo</li>
                   </ol>
             </div>
