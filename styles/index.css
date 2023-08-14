@@ -306,7 +306,7 @@ ol.social-media{
 
 /* DETALLES DE LAS PÁGINAS*/
 .politica-cookies, .politica-privacidad, .aviso-legal{
-    margin: 0.5rem 80px;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -317,7 +317,7 @@ ol.social-media{
 
 .politica-privacidad h2, .aviso-legal h2, .politica-cookies h2{
     text-align: left;
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 1rem;
 }
 
@@ -354,11 +354,12 @@ table{
 /*       DISEÑO RESPONSIVE       */
 @media screen and (min-width: 320px){
     body{
-        min-width: 100vw;
+        min-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         flex-grow: 1;
+        overflow-x: hidden;
     }
 
     .header-container{
@@ -422,17 +423,6 @@ table{
         justify-content: center;
         margin: 1rem;
     }
-    .items-metodo{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .metodo-alendia :not(.metodo-image){
-        margin:1rem;
-    }
-    .metodo-image{
-        width: 100%;
-        flex-grow: 1;
-    }
 
     .image-container{
         text-align: center;
@@ -461,10 +451,19 @@ table{
         display: flex;
     }
 
-
     .items-metodo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         font-size: 13px;
     }
+    .metodo-alendia :not(.metodo-image){
+        margin:0.2rem;
+    }
+    .metodo-image{
+        width: 100%;
+        flex-grow: 1;
+    }
+
     .sello-container{
         text-align: center;
     }
@@ -489,6 +488,9 @@ table{
 
 @media screen and (min-width: 768px){
 
+    body{
+        overflow-x: hidden;
+    }
     .main p{
         font-size: 15px;
     }
@@ -505,10 +507,7 @@ table{
     .header-container > .logo-header{
         margin-top: 5rem;
     }
-    .social-media{
-        position: relative;
-        margin-left: 2rem;
-    }
+
     .header-nav{
         margin-bottom: 2.5rem;
     }
@@ -526,6 +525,7 @@ table{
     }
 
     .logo-header{
+        margin-top: 5rem;
         width: 220px;
         height: 70px;
     }
@@ -581,6 +581,10 @@ table{
     }
     .footer-links{
         display: flex;
+    }
+    .social-media{
+        position: relative;
+        margin-left: 2rem;
     }
 }
 
