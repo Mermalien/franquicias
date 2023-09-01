@@ -32,6 +32,9 @@ h2{
     font-family: 'Roboto Condensed';
     text-align: center;
 }
+.cP{
+    font-family: 'Roboto Condensed';
+}
 
 
 /*          HEADER        */
@@ -95,11 +98,20 @@ h2{
 .quienes-somos p{
     margin: 1rem;
 }
-.quienes-somos-img{
-    flex-grow: 1;
+/* GRID DE IMÁGENES */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-container img {
     width: 100%;
-    height: fit-content;
-}
+    height:100%;
+  }
 .images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -130,6 +142,7 @@ h2{
 .metodo-image{
     margin-top: 2rem;
     margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-grow: 1;
 }
@@ -150,13 +163,14 @@ h2{
 .sello{
     width: 400px;
     height: 400px;
-    opacity: 0.2;
+    opacity: 0.15;
     transform: rotate(15deg);
     flex-grow: 1;
 }
 .items-metodo{
-    color: #080a0b;
+    color: #003d51;
     z-index: 1;
+    padding: 2rem;
 }
 
 
@@ -170,7 +184,7 @@ h2{
     width: 60px;
     height: 35px;
     color: rgb(251, 249, 249);
-    margin-left: 13rem;
+    margin-left: 10rem;
     margin-top: 1rem;
 }
 
@@ -181,7 +195,7 @@ hr{
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 3rem;
+    margin-top: 10rem;
 }
 
 /* BANNER DE COOKIES*/
@@ -287,7 +301,12 @@ ol.social-media{
 .social-media :hover{
     opacity: 85%;
 }
-
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: .8rem;
+}
 .footer-links a{
     color: #A3D55D;
 }
@@ -405,7 +424,7 @@ table{
     }
 
     p{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .container{
@@ -454,7 +473,9 @@ table{
     .items-metodo{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
         font-size: 13px;
+        font-weight: bold;
     }
     .metodo-alendia :not(.metodo-image){
         margin:0.2rem;
@@ -466,10 +487,14 @@ table{
 
     .sello-container{
         text-align: center;
+        padding-left: 7rem;
     }
     .sello{
         width:200px;
         height: 200px;
+    }
+    hr{
+        margin-top: 7rem;
     }
     .footer{
         display: flex;
@@ -492,7 +517,7 @@ table{
         overflow-x: hidden;
     }
     .main p{
-        font-size: 15px;
+        font-size: 17px;
     }
     .header{
         height: 9rem;
@@ -533,9 +558,6 @@ table{
         margin-top: 3rem;
     }
 
-    .container{
-        margin-left: 0.2rem;
-    }
     .images{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -559,9 +581,11 @@ table{
         padding-left: 5rem;
         align-items: center;
     }
+
     .items-metodo{
         font-size: 15px;
-        gap: 1rem;
+        gap: .8rem;
+        padding-left: 5rem;
     }
     table{
         display: flex;
@@ -569,7 +593,7 @@ table{
     .sello{
         width: 300px;
         height:300px;
-        float: right;
+        float: center;
     }
     .footer{
         display: flex;
@@ -580,7 +604,7 @@ table{
         gap: 1rem;
     }
     .footer-links{
-        display: flex;
+        margin: .9rem;
     }
     .social-media{
         position: relative;
@@ -592,8 +616,8 @@ table{
     main{
         width: 100%;
     }
-    p{
-        font-size: 17px;
+    .main p{
+        font-size: 18px;
     }
 
     .header{
@@ -631,13 +655,6 @@ table{
         margin-top: 3rem;
         margin-right: 1rem;
     }
-    .quienes-somos-img{
-        width: 40%;
-        height: 100%;
-        border-radius: 1%;
-        margin: 1rem;
-        float: left;
-    }
     .video{
         width: 100%;
         height: 40rem;
@@ -648,10 +665,9 @@ table{
         border: none;
     }
 
-    .p1, .p2{
-        text-align: center;
-    }
+
     .p2{
+        text-align: center;
         padding-top: 4rem;
         margin-left: 1rem;
     }
@@ -667,7 +683,7 @@ table{
         margin-top: 3rem;
     }
     .items-metodo{
-        font-size: 15px;
+        font-size: 18px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -680,6 +696,9 @@ table{
     table{
         display: flex;
         justify-content: center;
+    }
+    hr{
+        margin-top: 10rem;
     }
     .footer{
         display: flex;

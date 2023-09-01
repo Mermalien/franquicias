@@ -42,7 +42,7 @@
         
             <div class="header-nav">
             <ol>
-                <li><a href="#quienes-somos">HOME</a></li>
+                <li><a href="#quienes-somos">NOSOTROS</a></li>
                 <li><a href="/blog/blog-page.html">BLOG</a></li>
             </ol>
             </div>
@@ -52,6 +52,7 @@
     <main class="container">
         <div id="main" class="main">
             <div id="formulario" class="formulario">
+                
                 <style type='text/css'>
                     /* COMMON STYLES */
                     :root,
@@ -87,7 +88,8 @@
                     }
                     .cP{
                         cursor: pointer;
-                    }.flex-center-v{
+                    }
+                    .flex-center-v{
                         display: flex;
                         align-items: center;
                     }
@@ -97,14 +99,15 @@
                     }
                     .wf-form-paid {
                         padding-bottom: 45px;
+                        margin-top: 6rem;
+                        margin-bottom: 6rem;
                     }
                     .wf-parent {
                         padding: 30px 0;
                         height: 100%;
-                        width: 100vw;
+                        width: 100%;
                         box-sizing: border-box;
                         overflow: auto;
-                        background-repeat: no-repeat;
                     }
                     .wf-wrapper * {
                         box-sizing: border-box;
@@ -114,8 +117,8 @@
                         max-width: 700px;
                         margin: auto;
                         border: none;
-                        background-color: #00758c00;
-                        color: #171515;
+                        background-color: #fff;
+                        color: #222;
                     }
                     .iframe-container{
                         height: 100%;
@@ -124,18 +127,24 @@
                         min-height: 365px;
                     }
                     .wf-header {
-                        font-size: 20px;
+                        font-size: 21px;
                         text-align: center;
+                        padding-bottom: 15px;
                         font-weight: bold;
                         word-break: break-word;
                     }
+                    .form-p, .form-p2{
+                        margin: 1rem;
+                        font-family: 'Roboto Condensed';
+                    }
                     .wf-row {
-                        margin-bottom: 8px;
+                        margin-bottom: 10px;
                     }
                     .wf-row:last-child{
                         margin-bottom: 0;
                     }
                     .wf-label {
+                        font-family: 'Roboto Condensed';
                         padding: 7px 0;
                         word-break: break-word;
                     }
@@ -188,12 +197,15 @@
                         padding: 10px 15px;
                         min-height: 38px;
                         font-size: 15px;
-                        font-family: inherit;
                     }
                     select:not([data-wform-field='select-multiple']) {
                         -webkit-appearance: none;
                         -moz-appearance: none;
                         background: transparent;
+                        background-repeat: no-repeat;
+                        background-position-x: 99%;
+                        background-color: #fff;
+                        min-width: 70px;
                     }
                     input,
                     select {
@@ -317,7 +329,7 @@
                         font-size: 15px;
                         cursor: pointer;
                         font-weight: bold;
-                        font-family: inherit;
+                        display: flex;
                     }
                     .wform-btn-wrap {
                         display: flex;
@@ -325,18 +337,7 @@
                         justify-content: flex-end;
                         flex: 1;
                     }
-                    .wform-poweredby-container {
-                        position: absolute;
-                        left: 0;
-                        bottom: 0;
-                        border-top-right-radius: 10px;
-                        border-bottom-left-radius: 10px;
-                        font-size: 13px;
-                        padding: 6px 8px;
-                        font-family: sans-serif;
-                        display: flex;
-                        align-items: center;
-                    }
+
                     /* ==================== *** Form Alignment *** ==================== */
                     .wf-form-component:not([data-ux-form-alignment='top']) .wf-row {
                         display: flex;
@@ -468,28 +469,30 @@
                     }
                     /* ==================== *** Mediaquery ends *** ==================== */
                     </style>
-                    <iframe id='hidden619565000000365645Frame' name='hidden619565000000365645Frame' style='display: none;' class='iframe-container'></iframe>
-                    <div class='wf-parent' style="background-image: url(/images/bg-form.png);">
-                        <div class='wf-wrapper' id='BiginWebToRecordFormDiv619565000000365645'>
+                    <iframe id='hidden619565000000382002Frame' name='hidden619565000000382002Frame' style='display: none;' class='iframe-container'></iframe><div class='wf-parent' style="background-image: url(/images/bg-form.jpg);">
+                        <div class='wf-wrapper' id='BiginWebToRecordFormDiv619565000000382002' style="opacity: 80%;">
                         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
                         <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
-                        <form id='BiginWebToRecordForm619565000000365645' name='BiginWebToRecordForm619565000000365645' class='wf-form-component' data-ux-form-alignment='top' style='font-family: Arial;position: relative;font-size:15px;' method='POST' enctype='multipart/form-data' target='hidden619565000000365645Frame' onSubmit='javascript:document.charset="UTF-8"; return validateForm619565000000365645()' accept-charset='UTF-8'>
+                        <form id='BiginWebToRecordForm619565000000382002' name='BiginWebToRecordForm619565000000382002' class='wf-form-component' data-ux-form-alignment='top' style='font-family: Arial;position: relative;font-size:15px;' method='POST' enctype='multipart/form-data' target='hidden619565000000382002Frame' onSubmit='javascript:document.charset="UTF-8"; return validateForm619565000000382002()' accept-charset='UTF-8'>
                     <!-- Do not remove this code. -->
                          <input type='text' style='display:none;' name='xnQsjsdp' value='43c814f375139ebc4a3e1bf337eb5a1e21348851897d5267d2b3f8d9dcc021f7'/>
                          <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
-                         <input type='text' style='display:none;' name='xmIwtLD' value='06cc7dc9410a3b3cfc93a829810caef99a842dab8bc3dd0d821fa5f8f9778df7'/>
+                         <input type='text' style='display:none;' name='xmIwtLD' value='06cc7dc9410a3b3cfc93a829810caef9f5b15c0a36caebb233a14e8d650e7ab0'/>
                          <input type='text' style='display:none;' name='actionType' value='Q29udGFjdHM='/>
                          <input type='hidden' name='rmsg' id='rmsg' value='true'/>
                          <input type='text' style='display:none;' name='returnURL' value='null' />
-                         <div class='wf-header'>Contacto</div>
-                         <div id='elementDiv619565000000365645' class='wf-form-wrapper'>
+                         <div class='wf-header'>
+                            <p class="form-p">Alendia es una red de centros de día en proceso de expansión, que usa una metodología propia basada en el METODO ALENDIA y que está captando asociados.</p>
+                            <p class="form-p2">Si te interesa desarrollar un proyecto empresarial en tu ciudad, solicita nuestro dossier de presentación de CENTROS DE DIA ASOCIADOS ALENDIA.</p> </div>
+                         <div id='elementDiv619565000000382002' class='wf-form-wrapper'>
+                            
                               <div class='wf-row'>  
-                                   <div class='wf-label'>Nombre</div>
+                                   <div class='wf-label'>Nombre completo</div>
                                    <div class='wf-field wf-field-mandatory'>
                                         <div class='wf-field-inner'>
                                         <input name='Last Name' maxlength='80' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
                                         </div>
-                                        <div class='wf-field-help-text'>Escriba su nombre completo
+                                        <div class='wf-field-help-text'>
                                         </div>
                                    </div>
                               </div>
@@ -504,10 +507,10 @@
                                    </div>
                               </div>
                               <div class='wf-row'>  
-                                   <div class='wf-label'>Móvil</div>
+                                   <div class='wf-label'>Teléfono</div>
                                    <div class='wf-field'>
                                         <div class='wf-field-inner'>
-                                        <input fvalidate='true' ftype='mobile' name='Mobile' maxlength='30' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
+                                        <input fvalidate='true' ftype='mobile' name='Phone' maxlength='50' type='text' value='' class='wf-field-item wf-field-input' oninput='removeError(this)'/>
                                         </div>
                                    </div>
                               </div>
@@ -520,30 +523,30 @@
                                    </div>
                               </div>
                               <div class='wf-row'>  
-                                   <div class='wf-label'>Profesión</div>
+                                   <div class='wf-label'></div>
                                    <div class='wf-field'>
-                                        <div class='wf-field-inner'>
-                                        <textarea name='Description' maxlength='32000' type='text' class='wf-field-item wf-field-input' style='resize: none;' oninput='removeError(this)'></textarea>
-                                        </div>
-                                        <div class='wf-field-help-text'>Indique su ocupaci&oacute;n actual
+                                        <div class='wf-field-inner flex-center-v'>
+                                             <input class='wf-field-item wf-field-checkbox' type='checkbox' id='privacycheck619565000000382002' name='privacyTool' autocomplete='off' onclick='disablePrivacyError619565000000382002()'/>
+                                             <label for='privacycheck619565000000382002' class='cP'>He leído y acepto la <a href="/pages/politica-privacidad.html">política de privacidad</a></label>
                                         </div>
                                    </div>
                               </div>
                               <div class='wf-row wf-btn-row'>
                                    <div class='wf-label' data-ux-empty-label='true'></div>
                                    <div class='wform-btn-wrap'>
-                                   <input id='formsubmit' type='submit' class='wf-btn' style='background-color: #A3D55D; color: #fff; border: 1px solid #A3D55D;width: auto;' value='Enviar'/>
-                              </div></div>
+                                   <input id='formsubmit' type='submit' class='wf-btn' style='background-color:#a3d55d; color: #fff;width: auto;border: none;' value='Solicitar'/>
+                              </div>
+                            </div>
                         </div>
                         </form>
                         </div>
                     </div>
                     <script>
                            var mndFileds=new Array('Last\x20Name');
-                           var fldLangVal=new Array('Nombre');
+                           var fldLangVal=new Array('Nombre\x20completo');
                           var wfInnerWidth = window.innerWidth;
                           if(wfInnerWidth <= 768){
-                               document.forms['BiginWebToRecordForm619565000000365645'].setAttribute('data-ux-form-alignment', 'top');
+                               document.forms['BiginWebToRecordForm619565000000382002'].setAttribute('data-ux-form-alignment', 'top');
                           }
                             var name='';
                             var email='';
@@ -566,9 +569,9 @@
                                    parentElement.classList.add('wf-field-error-active');
                               }
                          }
-                         function validateFields619565000000365645() {
+                         function validateFields619565000000382002() {
                               var isReturn = true;
-                              var form = document.forms['BiginWebToRecordForm619565000000365645'];
+                              var form = document.forms['BiginWebToRecordForm619565000000382002'];
                               var validateFld = form.querySelectorAll('[fvalidate=true]');
                               var i;
                               for (i = 0; i < validateFld.length; i++)
@@ -606,11 +609,24 @@
                               }
                               return isReturn;
                          }
+                         function privacyError619565000000382002() {
+                              var privacyTool = document.getElementById('privacycheck619565000000382002');
+                              if(privacyTool !=undefined && !privacyTool.checked )
+                              {
+                                   setError(privacyTool, 'Please accept Privacy Policy');
+                                   return false;
+                              }
+                              return true;
+                         }
+                         function disablePrivacyError619565000000382002() {
+                              var privacyTool = document.getElementById('privacycheck619565000000382002');
+                              removeError(privacyTool);
+                         }
                     
-                            function checkMandatory619565000000365645() {
+                            function checkMandatory619565000000382002() {
                             var isReturn = true;
                             for(i=0;i<mndFileds.length;i++) {
-                              var fieldObj=document.forms['BiginWebToRecordForm619565000000365645'][mndFileds[i]];
+                              var fieldObj=document.forms['BiginWebToRecordForm619565000000382002'][mndFileds[i]];
                               if(fieldObj) {
                                 if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
                                     if(fieldObj.type =='file')
@@ -638,7 +654,8 @@
                                 } catch (e) {}
                                 }
                             }
-                            if(!validateFields619565000000365645()){isReturn = false;}
+                            if(!privacyError619565000000382002()){isReturn = false;}
+                            if(!validateFields619565000000382002()){isReturn = false;}
                             if(!isReturn){
                                 var errEle = document.getElementsByClassName('wf-field-error');
                                 if(errEle && errEle.length >0){
@@ -655,7 +672,7 @@
                             }
                     
                            
-                            document.getElementById('hidden619565000000365645Frame').addEventListener('load', function () {
+                            document.getElementById('hidden619565000000382002Frame').addEventListener('load', function () {
                                 try {
                                     var doc = arguments[0].currentTarget.contentWindow.document;
                                     if(doc.body.childElementCount !== 0) {
@@ -664,17 +681,32 @@
                                     }
                                 } catch (error) {
                                     arguments[0].currentTarget.style.display = 'block';
-                                    document.getElementById('BiginWebToRecordForm619565000000365645').style.display = 'none'
+                                    document.getElementById('BiginWebToRecordForm619565000000382002').style.display = 'none'
                                 }
                             });
                     </script>
-                          <script id='wf_script' src='https://bigin.zoho.eu/crm/WebformScriptServlet?rid=06cc7dc9410a3b3cfc93a829810caef99a842dab8bc3dd0d821fa5f8f9778df7gid43c814f375139ebc4a3e1bf337eb5a1e21348851897d5267d2b3f8d9dcc021f7'></script>
+                          <script id='wf_script' src='https://bigin.zoho.eu/crm/WebformScriptServlet?rid=06cc7dc9410a3b3cfc93a829810caef9f5b15c0a36caebb233a14e8d650e7ab0gid43c814f375139ebc4a3e1bf337eb5a1e21348851897d5267d2b3f8d9dcc021f7'></script>
             </div>
+
             <div class="quienes-somos" id="quienes-somos">
+
                 <h1>QUIÉNES SOMOS</h1>
-                <p class="p1"><strong>Alendia es una red de centros de día en proceso de expansión, que usa una metodología propia basada en el MÉTODO ALENDIA y que está captando asociados para crear una red de nuevos centros. </strong>
-                </p>
-                <img src="./images/imagen2.jpg" alt="alendia" class="quienes-somos-img">
+
+                <div class="grid-container">
+                    <div class="grid-item"><img src="/images/img-grid-1.jpg" alt="grid-image-1"></div>
+                    <div class="grid-item"><img src="/images/img-grid-2.jpeg" alt="grid-image-2"></div>
+                    <div class="grid-item"><img src="/images/img-grid-3.jpeg" alt="grid-image-3"></div>
+                    <div class="grid-item"><img src="/images/img-grid-4.jpeg" alt="grid-image-4"></div>
+                    <div class="grid-item"><img src="/images/img-grid-5.jpeg" alt="grid-image-5"></div>
+                    <div class="grid-item"><img src="/images/img-grid-6.jpg" alt="grid-image-6"></div>
+                    <div class="grid-item"><img src="/images/img-grid-7.jpg" alt="grid-image-7"></div>
+                    <div class="grid-item"><img src="/images/img-grid-8.JPG" alt="grid-image-8"></div>
+                    <div class="grid-item"><img src="/images/img-grid-9.jpg" alt="grid-image-9"></div>
+                    <div class="grid-item"><img src="/images/img-grid-10.jpg" alt="grid-image-10"></div>
+                    <div class="grid-item"><img src="/images/img-grid-11.jpeg" alt="grid-image-11"></div>
+                    <div class="grid-item"><img src="/images/img-grid-12.jpeg" alt="grid-image-12"></div>
+                </div>
+
                 <p class="p2">Los centros ALENDIA están concebidos para ofrecer un servicio de máxima calidad a las personas usuarias, de tal forma que se <strong>sientan como en casa.</strong> Para ello es necesario disponer de <strong>eficaces protocolos</strong> de funcionamiento, así como de un personal preparado para ello y en formación continua.</p>
                 <section class="images">
                     <div class="image-container">
@@ -732,11 +764,10 @@
                 </div>
                 
             </div>
-
             <div class="metodo-alendia">
                 <h2>MÉTODO ALENDIA</h2>
                 <img src="./images/image-metodo.jpeg" class="metodo-image" alt="centro-de-dia">
-                <p>El programa de gestión de nuestros centros <strong>-Método ALENDIA-</strong>, ofrece un conjunto de servicios propios orientados a la calidad y el bienestar de los usuarios:</p>
+                <p class="p-metodo">El programa de gestión de nuestros centros <strong>-Método ALENDIA-</strong>, ofrece un conjunto de servicios propios orientados a la calidad y el bienestar de los usuarios:</p>
                 <br>
                 <div class="bottom-div">
                     <p class="sello-container">
@@ -757,12 +788,6 @@
 
             </div>
         </div>
-        
-        
-        
-         
-
-        
     </main>
 
     <div class="aviso-cookies" id="aviso-cookies">
@@ -777,9 +802,6 @@
     <hr></hr>
     <footer>
         <div class="footer">
-          <!--  <div class="logo">
-                <img src="images/logoHeader.jpg" alt="logo-alendia" class="logo-footer">
-            </div>-->
             <div class="footer-links">
                 <ol>
                     <li>
