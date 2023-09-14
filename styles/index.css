@@ -476,6 +476,7 @@ table{
         grid-template-rows: auto;
         font-size: 13px;
         font-weight: bold;
+        justify-items: center;
     }
     .metodo-alendia :not(.metodo-image){
         margin:0.2rem;
@@ -585,7 +586,7 @@ table{
     .items-metodo{
         font-size: 15px;
         gap: .8rem;
-        padding-left: 5rem;
+        justify-items: center;
     }
     table{
         display: flex;
