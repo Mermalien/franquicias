@@ -90,8 +90,7 @@ h2{
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    padding-left: .4rem;
-    padding-right: .5rem;
+    padding-right: .1rem;
     text-align: center;
 }
 /*          CONTENEDOR DE ARTICLES          */
@@ -118,44 +117,47 @@ h2{
 .articleContainer button :hover{
     color: white;
 }
-.first-article{
-    margin-top: 1rem;
+.first-article, .second-article, .third-article, .fourth-article{
+    margin-top: .5rem;
     background-color: #d3dcde;
     color: #003d51;
 }
-.first-article h2{
+.first-article h2, .second-article h2, .third-article h2, .fourth-article h2{
     margin-top: 1rem;
     font-size: 23px;
 }
-.first-article p{
+.first-article p, .second-article p, .third-article p, .fourth-article p{
     padding: 1rem;
 }
-.first-article a{
+.first-article a, .second-article a, .third-article a, .fourth-article a{
     color:#00748C;
 
 }
 
-/*          ARTICULO PRINCIPAL          */
-.article1{
+
+/*          ARTICULOS          */
+.article1, .article2, .article3, .article4{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin: 1rem;
+    margin: .5rem;
     padding-right: 1rem;
     font-size: 15px;
     line-height: 30px;
     letter-spacing: normal;
     font-family: "Roboto Condensed";
 }
-.article1 h2{
+
+.article1 h2, .article2 h2, .article3 h2, .article4 h2{
     margin-top: 2rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
-.article1 p{
+.article1 p, .article2 p, .article3 p, .article4 p{
     margin-bottom: 1rem;
     color: #003d51;
 }
-.article1 ol{
+.article1 ol,.article3 ol{
     margin-top: 1rem;
     margin-bottom: 1rem;
     list-style: inside;
@@ -165,6 +167,11 @@ h2{
     flex-grow: 1;
     margin-right: 1rem;
     margin-bottom: 1rem;
+}
+.article4-video{
+    width: 100%;
+    height: auto;
+    text-align: center;
 }
 .link{
     width: 30vw;
@@ -178,10 +185,11 @@ h2{
 .link :hover{
     color: #A3D55D;
 }
-.article1 a{
+.article1 a, .article2 a, .article3 a, .article4 a{
     width: 100vw;
     color: #003d51;
 }
+
 
 
 
@@ -365,7 +373,7 @@ ol.social-media{
         font-family: 'Roboto Condensed';
         font-size: 20px;
     }
-    .article1 h2{
+    .article1, .article2 h2, .article3 h2, .article4 h2{
         margin-bottom: 1rem;
         margin-top: 2.5rem;
     }
@@ -392,7 +400,6 @@ ol.social-media{
     }
     .header-container{
         height: 9rem;
-
         display: flex;
         flex-direction: column;
     }
@@ -402,6 +409,8 @@ ol.social-media{
 
     .header-nav{
         margin-bottom: 2.5rem;
+        display: flex;
+        margin-left: 7rem;
     }
     .header-nav ol{
         margin-right: 4rem;
@@ -426,19 +435,28 @@ ol.social-media{
     .articleContainer{
         font-size: 17px;
     }
-    .first-article{
+    .first-article, .second-article, .third-article, .fourth-article{
         font-size: 17px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .first-article img{
+    .second-article, .fourth-article{
+        grid-template-areas:
+        "texto imagen";
+    }
+    .second-article-img, .fourth-article-img{
+        grid-area: imagen;
+    }
+
+    .first-article img, .second-article img, .third-article img, .fourth-article img{
         height: 100%;
     }
-    .first-article a{
+
+    .first-article a, .second-article a, .third-article a, .fourth-article a{
         color:#00748C;
     }
 
-    /*      Artículo Principal          */
+    /*      Artículos          */
     .article1 img{
         width: 50%;
         align-self: center;
@@ -451,6 +469,16 @@ ol.social-media{
         font-size: 18px;
     }
 
+    .article4 :not(h2){
+        display: flex;
+    }
+    .article4-texto{
+        position: absolute;
+        text-align: justify;
+        margin-top: 9rem;
+        margin-left: 25rem;
+        padding-right: .5rem;
+    }
     .footer{
         display: flex;
         flex-direction: row;
@@ -498,18 +526,19 @@ ol.social-media{
     }
 
     .header-nav a{
-        font-size: 17px;
+        font-size: 19px;
     }
     .logo-header{
         width: 220px;
         height: 70px;
     }
 
-    .first-article h2{
+    .first-article h2, .second-article h2, .third-article h2, .fourth-article h2{
         margin-top: 3rem;
     }
-    .first-article p{
+    .first-article p, .second-article p, .third-article p, .fourth-article p{
         padding: 4rem;
+        text-align: justify;
     }
 
     .footer{
