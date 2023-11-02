@@ -1,12 +1,9 @@
 ##
-
-<<<<<<< HEAD
 Este proyecto ha sido creado con mucho cariño, tiempo y paciencia por Andrea [(www.linkedin.com/in/andrea-guisande-nieto)]
 Se trata de una landing diseñada para captar futuros socios de la red Alendia que quieran expandir los centros de día Alendia por toda la península.
-=======
+
 Este proyecto ha sido creado con mucho cariño, tiempo y paciencia por Andrea.
 Se trata de una landing diseñada para captar futuros socios de la red Alendia que quieran expandir los centros de día Alendia por toda la península. https://red.alendia.es/
->>>>>>> 0590206eba32cc6fcb60c7f6ba51f3f02e92e507
 
 ###
 
